@@ -3,6 +3,8 @@ $white: rgb(243, 239, 240);
 $box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 
 body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -10,6 +12,9 @@ body {
   background-image: linear-gradient(to bottom, rgba(214, 113, 150, 0.73), rgba(222, 212, 171, 0.42) 100%);
   background-attachment: fixed;
   font-size: 16px;
+}
+h1 {
+  font-weight: 700;
 }
 main {
   display: flex;
